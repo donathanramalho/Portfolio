@@ -6,10 +6,13 @@
         "projects": "Projetos",
         "contact": "Contato"
     },
-    "personal": {
-        "name": "Donathan Ramalho Gonçalves",
-        "role": "Engenheiro de Software | Full-Stack",
-        "description": ""
+    "hero": {
+        "greeting": "Olá! Eu sou",
+        "name": "Donathan",
+        "subtitle": "Engenheiro de Software | Full-Stack",
+        "description": "Desenvolvedor de soluções eficientes e escaláveis. Apaixonado por tecnologia e inovação.",
+        "ctaResume": "Baixar CV",
+        "ctaProjects": "Ver Projetos"
     },
     "experience": {
         "senai": {

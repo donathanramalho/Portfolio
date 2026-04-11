@@ -1,4 +1,5 @@
 import { Header } from './components/Header';
+import { Hero } from './components/Hero';
 
 function App() {
   return (
@@ -6,12 +7,9 @@ function App() {
       <Header />
 
       <main className="pt-20 px-4 max-w-7xl mx-auto">
+        <Hero />
         
-        <div className="h-[200vh] mt-10">
-          <h1 className="text-4xl font-bold">Conteúdo do Portfólio vai aqui...</h1>
-          <p className="mt-4 text-gray-400">Role a página para ver o Header fixo no topo!</p>
-        </div>
-
+        <div className="h-[100vh]"></div>
       </main>
     </div>
   );
