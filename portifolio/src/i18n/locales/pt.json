@@ -1,4 +1,11 @@
 {
+    "nav": {
+        "home": "Home",
+        "about": "Sobre",
+        "experience": "Experiência",
+        "projects": "Projetos",
+        "contact": "Contato"
+    },
     "personal": {
         "name": "Donathan Ramalho Gonçalves",
         "role": "Engenheiro de Software | Full-Stack",
