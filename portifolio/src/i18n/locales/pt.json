@@ -1,0 +1,21 @@
+{
+    "personal": {
+        "name": "Donathan Ramalho Gonçalves",
+        "role": "Engenheiro de Software | Full-Stack",
+        "description": ""
+    },
+    "experience": {
+        "senai": {
+            "title": "Instrutor Técnico de TI",
+            "company": "SENAI",
+            "period": "Mar 2026 - Atual",
+            "description": ""
+        },
+        "ireland": {
+            "title": "Intercâmbio de Inglês",
+            "company": "CES - Irlanda",
+            "period": "Jul 2025 - Dez 2025",
+            "description": ""
+        }
+    }
+}
