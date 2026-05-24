@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello! I'm",
+        "name": "Donathan",
+        "subtitle": "Software Engineer | Full-Stack",
+        "description": "Developer of efficient and scalable solutions. Passionate about technology and innovation.",
+        "ctaResume": "Download CV",
+        "ctaProjects": "View Projects"
+    },
+    "experience": {
+        "senai": {
+            "title": "IT Technical Instructor",
+            "company": "SENAI",
+            "period": "Mar 2026 - Present",
+            "description": ""
+        },
+        "ireland": {
+            "title": "English Language Exchange",
+            "company": "CES - Ireland",
+            "period": "Jul 2025 - Dec 2025",
+            "description": ""
+        }
+    }
+}
