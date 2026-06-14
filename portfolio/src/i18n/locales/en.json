@@ -1,31 +1,65 @@
 {
-    "nav": {
-        "home": "Home",
-        "about": "About",
-        "experience": "Experience",
-        "projects": "Projects",
-        "contact": "Contact"
-    },
-    "hero": {
-        "greeting": "Hello! I'm",
-        "name": "Donathan",
-        "subtitle": "Software Engineer | Full-Stack",
-        "description": "Developer of efficient and scalable solutions. Passionate about technology and innovation.",
-        "ctaResume": "Download CV",
-        "ctaProjects": "View Projects"
-    },
-    "experience": {
-        "senai": {
-            "title": "IT Technical Instructor",
-            "company": "SENAI",
-            "period": "Mar 2026 - Present",
-            "description": ""
-        },
-        "ireland": {
-            "title": "English Language Exchange",
-            "company": "CES - Ireland",
-            "period": "Jul 2025 - Dec 2025",
-            "description": ""
-        }
-    }
+  "nav": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+  },
+  "hero": {
+      "greeting": "Hello! I'm",
+      "name": "Donathan",
+      "subtitle": "Software Engineer | Full-Stack",
+      "description": "Developer of efficient and scalable solutions. Passionate about technology and innovation.",
+      "ctaResume": "Download CV",
+      "ctaProjects": "View Projects"
+  },
+  "experience": {
+      "senai": {
+          "title": "IT Technical Instructor",
+          "company": "SENAI",
+          "period": "Mar 2026 - Present",
+          "description": ""
+      },
+      "ireland": {
+          "title": "English Language Exchange",
+          "company": "CES - Ireland",
+          "period": "Jul 2025 - Dec 2025",
+          "description": ""
+      }
+  },
+  "projects": {
+    "title": "Projects",
+    "githubBtn": "Code",
+    "deployBtn": "Access",
+    "items": [
+      {
+        "title": "Copel Innovation Solution",
+        "badge": "🏆 2nd Place - Hackathon",
+        "description": "MVP focused on solving energy bottlenecks. I was responsible for the front-end architecture and system integration during the high-pressure competition.",
+        "image": "/Donathan.jpg",
+        "tech": ["React", "TypeScript", "Tailwind"],
+        "github": "https://github.com/seu-user/repo-copel",
+        "deploy": "https://link-do-deploy.com"
+      },
+      {
+        "title": "Competence Management System",
+        "badge": "",
+        "description": "Complete platform for mapping employee skills, including management dashboards and access control.",
+        "image": "/Donathan.jpg",
+        "tech": ["C#", ".NET Core", "React", "SQL Server"],
+        "github": "https://github.com/seu-user/repo-gestao",
+        "deploy": ""
+      },
+      {
+        "title": "ETL Data Pipeline",
+        "badge": "",
+        "description": "Automation scripts for extracting, transforming, and loading raw data for subsequent strategic visualization.",
+        "image": "/Donathan.jpg",
+        "tech": ["Python", "Pandas", "Power BI"],
+        "github": "https://github.com/seu-user/repo-etl",
+        "deploy": ""
+      }
+    ]
+  }
 }

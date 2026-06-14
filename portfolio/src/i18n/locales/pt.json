@@ -27,5 +27,39 @@
             "period": "Jul 2025 - Dez 2025",
             "description": ""
         }
+    },
+    "projects": {
+        "title": "Projetos",
+        "githubBtn": "Código",
+        "deployBtn": "Acessar",
+        "items": [
+        {
+            "title": "Solução Inovação Copel",
+            "badge": "🏆 2º Lugar - Hackathon",
+            "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
+            "image": "/Donathan.jpg",
+            "tech": ["React", "TypeScript", "Tailwind"],
+            "github": "https://github.com/seu-user/repo-copel",
+            "deploy": "https://link-do-deploy.com"
+        },
+        {
+            "title": "Sistema de Gestão de Competências",
+            "badge": "",
+            "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
+            "image": "/Donathan.jpg",
+            "tech": ["C#", ".NET Core", "React", "SQL Server"],
+            "github": "https://github.com/seu-user/repo-gestao",
+            "deploy": ""
+        },
+        {
+            "title": "Pipeline de Dados ETL",
+            "badge": "",
+            "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
+            "image": "/Donathan.jpg",
+            "tech": ["Python", "Pandas", "Power BI"],
+            "github": "https://github.com/seu-user/repo-etl",
+            "deploy": ""
+        }
+    ]
     }
 }

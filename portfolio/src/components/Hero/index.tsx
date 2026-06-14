@@ -29,7 +29,7 @@ export function Hero() {
             <div 
                 className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
                 style={{
-                    background: `radial-gradient(550px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(20, 57, 116, 0.05), transparent 80%)`
+                    background: `radial-gradient(500px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(20, 57, 116, 0.10), transparent 80%)`
                 }}
             ></div>
 
@@ -59,8 +59,9 @@ export function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                         <a 
                             href="/Donathan_Goncalves_Software_PT.pdf"
+                            // href="/Donathan_Goncalves_Software_PT.pdf"
                             target="_blank"
-                            className="flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors text-center shadow-lg shadow-blue-500/20"
+                            className="flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors text-center shadow-md shadow-blue-500/20"
                         >
                             {t('hero.ctaResume')} <FaFilePdf className="text-lg" />
                         </a>
