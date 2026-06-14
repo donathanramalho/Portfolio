@@ -16,23 +16,24 @@
   },
   "experience": {
       "senai": {
-          "title": "IT Technical Instructor",
-          "company": "SENAI",
-          "period": "Mar 2026 - Present",
-          "description": ""
+        "title": "IT Technical Instructor",
+        "company": "SENAI",
+        "period": "Mar 2026 - Present",
+        "description": ""
       },
       "ireland": {
-          "title": "English Language Exchange",
-          "company": "CES - Ireland",
-          "period": "Jul 2025 - Dec 2025",
-          "description": ""
+        "title": "English Language Exchange",
+        "company": "CES - Ireland",
+        "period": "Jul 2025 - Dec 2025",
+        "description": ""
       }
   },
   "projects": {
     "title": "Projects",
     "githubBtn": "Code",
     "deployBtn": "Access",
-    "items": [
+    "items":
+    [
       {
         "title": "Copel Innovation Solution",
         "badge": "🏆 2nd Place - Hackathon",
@@ -61,5 +62,17 @@
         "deploy": ""
       }
     ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk?",
+    "description": "I am open to new opportunities and challenges. If you have a position, a project or just want to exchange an idea about technology, feel free to send me a message!",
+    "emailBtn": "Email",
+    "linkedinBtn": "LinkedIn",
+    "githubBtn": "GitHub"
+  },
+  "footer": {
+    "rights": "©2026 Donathan Gonçalves. All rights reserved.",
+    "built": "Developed with React, Tailwind CSS and Vite."
   }
 }

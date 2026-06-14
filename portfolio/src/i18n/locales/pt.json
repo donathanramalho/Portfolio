@@ -32,34 +32,47 @@
         "title": "Projetos",
         "githubBtn": "Código",
         "deployBtn": "Acessar",
-        "items": [
-        {
-            "title": "Solução Inovação Copel",
-            "badge": "🏆 2º Lugar - Hackathon",
-            "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
-            "image": "/Donathan.jpg",
-            "tech": ["React", "TypeScript", "Tailwind"],
-            "github": "https://github.com/seu-user/repo-copel",
-            "deploy": "https://link-do-deploy.com"
-        },
-        {
-            "title": "Sistema de Gestão de Competências",
-            "badge": "",
-            "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
-            "image": "/Donathan.jpg",
-            "tech": ["C#", ".NET Core", "React", "SQL Server"],
-            "github": "https://github.com/seu-user/repo-gestao",
-            "deploy": ""
-        },
-        {
-            "title": "Pipeline de Dados ETL",
-            "badge": "",
-            "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
-            "image": "/Donathan.jpg",
-            "tech": ["Python", "Pandas", "Power BI"],
-            "github": "https://github.com/seu-user/repo-etl",
-            "deploy": ""
-        }
-    ]
+        "items":
+        [
+            {
+                "title": "Solução Inovação Copel",
+                "badge": "🏆 2º Lugar - Hackathon",
+                "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
+                "image": "/Donathan.jpg",
+                "tech": ["React", "TypeScript", "Tailwind"],
+                "github": "https://github.com/seu-user/repo-copel",
+                "deploy": "https://link-do-deploy.com"
+            },
+            {
+                "title": "Sistema de Gestão de Competências",
+                "badge": "",
+                "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
+                "image": "/Donathan.jpg",
+                "tech": ["C#", ".NET Core", "React", "SQL Server"],
+                "github": "https://github.com/seu-user/repo-gestao",
+                "deploy": ""
+            },
+            {
+                "title": "Pipeline de Dados ETL",
+                "badge": "",
+                "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
+                "image": "/Donathan.jpg",
+                "tech": ["Python", "Pandas", "Power BI"],
+                "github": "https://github.com/seu-user/repo-etl",
+                "deploy": ""
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contato",
+        "subtitle": "Vamos conversar?",
+        "description": "Estou aberto a novas oportunidades e desafios. Se você tem uma vaga, um projeto ou quer apenas trocar uma ideia sobre tecnologia, sinta-se à vontade para me mandar uma mensagem!",
+        "emailBtn": "E-mail",
+        "linkedinBtn": "LinkedIn",
+        "githubBtn": "GitHub"
+    },
+    "footer": {
+        "rights": "©2026 Donathan Gonçalves. Todos os direitos reservados.",
+        "built": "Desenvolvido com React, Tailwind CSS e Vite."
     }
 }
