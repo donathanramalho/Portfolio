@@ -14,32 +14,75 @@
         "ctaResume": "Baixar CV",
         "ctaProjects": "Ver Projetos"
     },
+    "about": {
+        "title": "Sobre",
+        "content": "Sou um Desenvolvedor de Software Full-Stack com experiência em criar soluções inovadoras e eficientes. Apaixonado por tecnologia, busco constantemente aprender novas ferramentas e metodologias para entregar produtos de alta qualidade."
+    },
+    "skills": {
+        "title": "Habilidades & Tecnologias",
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "tools": "Ferramentas & Infraestrutura"
+    },
     "experience": {
-        "senai": {
-            "title": "Instrutor Técnico de TI",
-            "company": "SENAI",
-            "period": "Mar 2026 - Atual",
-            "description": ""
-        },
-        "ireland": {
-            "title": "Intercâmbio de Inglês",
-            "company": "CES - Irlanda",
-            "period": "Jul 2025 - Dez 2025",
-            "description": ""
-        }
+        "title": "Trajetória",
+        "jobs": [
+            {
+                "role": "Instrutor Técnico de TI",
+                "company": "Senai",
+                "period": "Mar 2026 - Presente",
+                "description": "Foco em projetos educacionais full-stack e automação de processos internos (ETL)."
+            },
+            {
+                "role": "Intercâmbio de Imersão e Vivência Internacional",
+                "company": "CES - Irlanda",
+                "period": "Jul 2025 - Dez 2025",
+                "description": "Aprimoramento avançado do idioma inglês e vivência multicultural, desenvolvendo adaptabilidade e comunicação."
+            },
+            {
+                "role": "Tech Lead & Instrutor de TI",
+                "company": "Robert Bosch",
+                "period": "Nov 2022 - Jun 2025",
+                "description": "Liderança técnica e desenvolvimento de sistema de gestão de competências. Implementação de metodologias ágeis (Scrum/Kanban)."
+            },
+            {
+                "role": "Aprendiz",
+                "company": "Robert Bosch",
+                "period": "Fev 2021 - Nov 2022",
+                "description": "Desenvolvimento de scripts de automação e criação de dashboards gerenciais."
+            }
+        ]
+    },
+    "education": {
+        "title": "Formação & Certificações",
+        "items": [
+            {
+                "course": "Engenharia de Software",
+                "institution": "UniSenai PR",
+                "type": "Bacharelado (Concluído em 2024)"
+            },
+            {
+                "course": "Cybersecurity",
+                "institution": "IBM",
+                "type": "Certificação Profissional"
+            }
+        ]
     },
     "projects": {
         "title": "Projetos",
         "githubBtn": "Código",
         "deployBtn": "Acessar",
-        "items":
-        [
+        "items": [
             {
                 "title": "Solução Inovação Copel",
                 "badge": "🏆 2º Lugar - Hackathon",
                 "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
                 "image": "/Donathan.jpg",
-                "tech": ["React", "TypeScript", "Tailwind"],
+                "tech": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind"
+                ],
                 "github": "https://github.com/seu-user/repo-copel",
                 "deploy": "https://link-do-deploy.com"
             },
@@ -48,7 +91,12 @@
                 "badge": "",
                 "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
                 "image": "/Donathan.jpg",
-                "tech": ["C#", ".NET Core", "React", "SQL Server"],
+                "tech": [
+                    "C#",
+                    ".NET Core",
+                    "React",
+                    "SQL Server"
+                ],
                 "github": "https://github.com/seu-user/repo-gestao",
                 "deploy": ""
             },
@@ -57,7 +105,11 @@
                 "badge": "",
                 "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
                 "image": "/Donathan.jpg",
-                "tech": ["Python", "Pandas", "Power BI"],
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "Power BI"
+                ],
                 "github": "https://github.com/seu-user/repo-etl",
                 "deploy": ""
             }

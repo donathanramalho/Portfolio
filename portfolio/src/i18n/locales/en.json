@@ -1,78 +1,130 @@
 {
-  "nav": {
-      "home": "Home",
-      "about": "About",
-      "experience": "Experience",
-      "projects": "Projects",
-      "contact": "Contact"
-  },
-  "hero": {
-      "greeting": "Hello! I'm",
-      "name": "Donathan",
-      "subtitle": "Software Engineer | Full-Stack",
-      "description": "Developer of efficient and scalable solutions. Passionate about technology and innovation.",
-      "ctaResume": "Download CV",
-      "ctaProjects": "View Projects"
-  },
-  "experience": {
-      "senai": {
-        "title": "IT Technical Instructor",
-        "company": "SENAI",
-        "period": "Mar 2026 - Present",
-        "description": ""
-      },
-      "ireland": {
-        "title": "English Language Exchange",
-        "company": "CES - Ireland",
-        "period": "Jul 2025 - Dec 2025",
-        "description": ""
-      }
-  },
-  "projects": {
-    "title": "Projects",
-    "githubBtn": "Code",
-    "deployBtn": "Access",
-    "items":
-    [
-      {
-        "title": "Copel Innovation Solution",
-        "badge": "🏆 2nd Place - Hackathon",
-        "description": "MVP focused on solving energy bottlenecks. I was responsible for the front-end architecture and system integration during the high-pressure competition.",
-        "image": "/Donathan.jpg",
-        "tech": ["React", "TypeScript", "Tailwind"],
-        "github": "https://github.com/seu-user/repo-copel",
-        "deploy": "https://link-do-deploy.com"
-      },
-      {
-        "title": "Competence Management System",
-        "badge": "",
-        "description": "Complete platform for mapping employee skills, including management dashboards and access control.",
-        "image": "/Donathan.jpg",
-        "tech": ["C#", ".NET Core", "React", "SQL Server"],
-        "github": "https://github.com/seu-user/repo-gestao",
-        "deploy": ""
-      },
-      {
-        "title": "ETL Data Pipeline",
-        "badge": "",
-        "description": "Automation scripts for extracting, transforming, and loading raw data for subsequent strategic visualization.",
-        "image": "/Donathan.jpg",
-        "tech": ["Python", "Pandas", "Power BI"],
-        "github": "https://github.com/seu-user/repo-etl",
-        "deploy": ""
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Let's talk?",
-    "description": "I am open to new opportunities and challenges. If you have a position, a project or just want to exchange an idea about technology, feel free to send me a message!",
-    "emailBtn": "Email",
-    "linkedinBtn": "LinkedIn",
-    "githubBtn": "GitHub"
-  },
-  "footer": {
-    "rights": "©2026 Donathan Gonçalves. All rights reserved.",
-    "built": "Developed with React, Tailwind CSS and Vite."
-  }
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello! I'm",
+        "name": "Donathan",
+        "subtitle": "Software Engineer | Full-Stack",
+        "description": "Developer of efficient and scalable solutions. Passionate about technology and innovation.",
+        "ctaResume": "Download CV",
+        "ctaProjects": "View Projects"
+    },
+    "about": {
+        "title": "About",
+        "content": "I am a Full-Stack Software Developer with experience in creating innovative and efficient solutions. Passionate about technology, I constantly seek to learn new tools and methodologies to deliver high-quality products."
+    },
+    "skills": {
+        "title": "Skills & Technologies",
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "tools": "Tools & Infrastructure"
+    },
+    "experience": {
+        "title": "Trajectory",
+        "jobs": [
+            {
+                "role": "Technical Instructor of TI",
+                "company": "Senai",
+                "period": "Mar 2026 - Presente",
+                "description": "Focus on educational full-stack projects and automation of internal processes (ETL)."
+            },
+            {
+                "role": "Internship of Immersion and International Experience",
+                "company": "CES - Ireland",
+                "period": "Jul 2025 - Dez 2025",
+                "description": "Advanced English language improvement and multicultural experience, developing adaptability and communication."
+            },
+            {
+                "role": "Tech Lead & Technical Instructor of TI",
+                "company": "Robert Bosch",
+                "period": "Nov 2022 - Jun 2025",
+                "description": "Technical leadership and development of competence management system. Implementation of agile methodologies (Scrum/Kanban)."
+            },
+            {
+                "role": "Apprentice",
+                "company": "Robert Bosch",
+                "period": "Feb 2021 - Nov 2022",
+                "description": "Development of automation scripts and creation of management dashboards."
+            }
+        ]
+    },
+    "education": {
+        "title": "Education & Certifications",
+        "items": [
+            {
+                "course": "Software Engineering",
+                "institution": "UniSenai PR",
+                "type": "Bachelor's Degree (Completed in 2024)"
+            },
+            {
+                "course": "Cybersecurity",
+                "institution": "IBM",
+                "type": "Professional Certification"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "githubBtn": "Code",
+        "deployBtn": "Access",
+        "items": [
+            {
+                "title": "Copel Innovation Solution",
+                "badge": "🏆 2nd Place - Hackathon",
+                "description": "MVP focused on solving energy bottlenecks. I was responsible for the front-end architecture and system integration during the high-pressure competition.",
+                "image": "/Donathan.jpg",
+                "tech": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind"
+                ],
+                "github": "https://github.com/seu-user/repo-copel",
+                "deploy": "https://link-do-deploy.com"
+            },
+            {
+                "title": "Competence Management System",
+                "badge": "",
+                "description": "Complete platform for mapping employee skills, including management dashboards and access control.",
+                "image": "/Donathan.jpg",
+                "tech": [
+                    "C#",
+                    ".NET Core",
+                    "React",
+                    "SQL Server"
+                ],
+                "github": "https://github.com/seu-user/repo-gestao",
+                "deploy": ""
+            },
+            {
+                "title": "ETL Data Pipeline",
+                "badge": "",
+                "description": "Automation scripts for extracting, transforming, and loading raw data for subsequent strategic visualization.",
+                "image": "/Donathan.jpg",
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "Power BI"
+                ],
+                "github": "https://github.com/seu-user/repo-etl",
+                "deploy": ""
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Let's talk?",
+        "description": "I am open to new opportunities and challenges. If you have a position, a project or just want to exchange an idea about technology, feel free to send me a message!",
+        "emailBtn": "Email",
+        "linkedinBtn": "LinkedIn",
+        "githubBtn": "GitHub"
+    },
+    "footer": {
+        "rights": "©2026 Donathan Gonçalves. All rights reserved.",
+        "built": "Developed with React, Tailwind CSS and Vite."
+    }
 }
