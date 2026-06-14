@@ -25,7 +25,7 @@
         "tools": "Ferramentas & Infraestrutura"
     },
     "experience": {
-        "title": "Trajetória",
+        "title": "Experiência",
         "jobs": [
             {
                 "role": "Instrutor Técnico de TI",
@@ -124,7 +124,7 @@
         "githubBtn": "GitHub"
     },
     "footer": {
-        "rights": "©2026 Donathan Gonçalves. Todos os direitos reservados.",
-        "built": "Desenvolvido com React, Tailwind CSS e Vite."
+        "rights": "© 2026 Donathan R. Gonçalves",
+        "built": "Desenvolvido com React, Vite e Tailwind CSS."
     }
 }

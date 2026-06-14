@@ -6,14 +6,14 @@ export function Contact() {
     
     return (
         <section id="contact" className="py-24 bg-gray-900">
-            <div className="max-w-4xl mx-auto px-6 text-center">
+            <div className="max-w-6xl mx-auto px-6">
 
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-4 flex items-center justify-center gap-4">
-                    <span className="text-blue-500 font-mono text-xl">04.</span> 
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-16 gap-4">
                     {t('contact.title')}
+                    <div className="h-1 w-20 bg-blue-500 mt-4 rounded"></div>
                 </h2>
 
-                <h3 className="text-4xl md:text-5xl font-extrabold text-gray-300 mb-6">
+                <h3 className="text-4xl md:text-5xl font-extrabold text-gray-300 mb-6 text-center">
                     {t('contact.subtitle')}
                 </h3>
 
