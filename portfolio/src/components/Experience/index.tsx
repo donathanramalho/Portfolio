@@ -19,7 +19,7 @@ export function Experience() {
     }>;
 
     return (
-        <section id="experience" className="py-24 bg-gray-900 overflow-hidden">
+        <section id="experience" className="py-24 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-16 items-center gap-4">

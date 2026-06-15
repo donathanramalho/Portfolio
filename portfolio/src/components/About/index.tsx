@@ -4,7 +4,7 @@ export function About() {
     const { t } = useTranslation();
 
     return (
-        <section id="about" className="py-24 bg-gray-800">
+        <section id="about" className="py-24">
             <div className="max-w-6xl mx-auto px-6">
                 
                 <div className="flex flex-col md:flex-row gap-12 items-start">

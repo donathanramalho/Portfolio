@@ -19,10 +19,33 @@
         "content": "I am a Full-Stack Software Developer with experience in creating innovative and efficient solutions. Passionate about technology, I constantly seek to learn new tools and methodologies to deliver high-quality products."
     },
     "skills": {
-        "title": "Skills & Technologies",
-        "frontend": "Front-end",
-        "backend": "Back-end",
-        "tools": "Tools & Infrastructure"
+        "title": "Skills",
+        "categories": [
+            {
+                "name": "Languages",
+                "items": ["C#", "Python", "TypeScript", "JavaScript"]
+            },
+            {
+                "name": "Front-end",
+                "items": ["React", "Tailwind CSS", "HTML5", "CSS3"]
+            },
+            {
+                "name": "Back-end",
+                "items": [".NET Core", "Django", "Node.js", "RESTful APIs"]
+            },
+            {
+                "name": "Database & ORM",
+                "items": ["SQL Server", "PostgreSQL", "Entity Framework"]
+            },
+            {
+                "name": "Architecture & Best Practices",
+                "items": ["SOLID", "Clean Architecture", "Scrum", "Kanban", "CI/CD"]
+            },
+            {
+                "name": "Tools & Infra",
+                "items": ["Docker", "Git", "GitHub", "Azure"]
+            }
+            ]
     },
     "experience": {
         "title": "Experience",
@@ -77,7 +100,7 @@
                 "title": "Copel Innovation Solution",
                 "badge": "🏆 2nd Place - Hackathon",
                 "description": "MVP focused on solving energy bottlenecks. I was responsible for the front-end architecture and system integration during the high-pressure competition.",
-                "image": "/Donathan.jpg",
+                "image": "/hackathon-team.jpeg",
                 "tech": [
                     "React",
                     "TypeScript",
@@ -90,7 +113,7 @@
                 "title": "Competence Management System",
                 "badge": "",
                 "description": "Complete platform for mapping employee skills, including management dashboards and access control.",
-                "image": "/Donathan.jpg",
+                "image": "/image.png",
                 "tech": [
                     "C#",
                     ".NET Core",
@@ -104,7 +127,7 @@
                 "title": "ETL Data Pipeline",
                 "badge": "",
                 "description": "Automation scripts for extracting, transforming, and loading raw data for subsequent strategic visualization.",
-                "image": "/Donathan.jpg",
+                "image": "/image.png",
                 "tech": [
                     "Python",
                     "Pandas",

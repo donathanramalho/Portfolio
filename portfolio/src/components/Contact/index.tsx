@@ -5,7 +5,7 @@ export function Contact() {
     const { t } = useTranslation();
     
     return (
-        <section id="contact" className="py-24 bg-gray-900">
+        <section id="contact" className="py-24">
             <div className="max-w-6xl mx-auto px-6">
 
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-16 gap-4">

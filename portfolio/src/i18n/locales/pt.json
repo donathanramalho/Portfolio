@@ -19,10 +19,33 @@
         "content": "Sou um Desenvolvedor de Software Full-Stack com experiência em criar soluções inovadoras e eficientes. Apaixonado por tecnologia, busco constantemente aprender novas ferramentas e metodologias para entregar produtos de alta qualidade."
     },
     "skills": {
-        "title": "Habilidades & Tecnologias",
-        "frontend": "Front-end",
-        "backend": "Back-end",
-        "tools": "Ferramentas & Infraestrutura"
+        "title": "Habilidades",
+        "categories": [
+        {
+            "name": "Linguagens",
+            "items": ["C#", "Python", "TypeScript", "JavaScript"]
+        },
+        {
+            "name": "Front-end",
+            "items": ["React", "Tailwind CSS", "HTML5", "CSS3"]
+        },
+        {
+            "name": "Back-end",
+            "items": [".NET Core", "Django", "Node.js", "RESTful APIs"]
+        },
+        {
+            "name": "Banco de Dados & ORM",
+            "items": ["SQL Server", "PostgreSQL", "Entity Framework"]
+        },
+        {
+            "name": "Arquitetura & Boas Práticas",
+            "items": ["SOLID", "Clean Architecture", "Scrum", "Kanban", "CI/CD"]
+        },
+        {
+            "name": "Ferramentas & Infra",
+            "items": ["Docker", "Git", "GitHub", "Azure"]
+        }
+        ]
     },
     "experience": {
         "title": "Experiência",
@@ -77,7 +100,7 @@
                 "title": "Solução Inovação Copel",
                 "badge": "🏆 2º Lugar - Hackathon",
                 "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
-                "image": "/Donathan.jpg",
+                "image": "/hackathon-team.jpeg",
                 "tech": [
                     "React",
                     "TypeScript",
@@ -90,7 +113,7 @@
                 "title": "Sistema de Gestão de Competências",
                 "badge": "",
                 "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
-                "image": "/Donathan.jpg",
+                "image": "/image.png",
                 "tech": [
                     "C#",
                     ".NET Core",
@@ -104,7 +127,7 @@
                 "title": "Pipeline de Dados ETL",
                 "badge": "",
                 "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
-                "image": "/Donathan.jpg",
+                "image": "/image.png",
                 "tech": [
                     "Python",
                     "Pandas",

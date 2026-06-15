@@ -9,7 +9,8 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white selection:bg-blue-500/30">
+    <div className="min-h-screen bg-slate-950 text-white selection:bg-blue-500/30">
+      
       <Header />
       
       <main className="pt-16">

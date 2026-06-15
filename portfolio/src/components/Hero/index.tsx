@@ -26,6 +26,8 @@ export function Hero() {
             <div className="absolute inset-0 z-0 bg-[url('/fundo-hero.jpg')] bg-cover bg-center bg-no-repeat"></div>
             <div className="absolute inset-0 z-0 bg-gray-950/85"></div>
 
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-slate-950 to-transparent z-0"></div>
+
             <div 
                 className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
                 style={{
