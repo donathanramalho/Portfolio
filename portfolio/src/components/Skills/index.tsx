@@ -10,7 +10,7 @@ export function Skills() {
     }>;
 
     return (
-        <section id="skills" className="py-24 overflow-hidden">
+        <section id="skills" className="pb-24 pt-10 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">

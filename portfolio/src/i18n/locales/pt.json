@@ -15,36 +15,67 @@
         "ctaProjects": "Ver Projetos"
     },
     "about": {
-        "title": "Sobre",
-        "content": "Sou um Desenvolvedor de Software Full-Stack com experiência em criar soluções inovadoras e eficientes. Apaixonado por tecnologia, busco constantemente aprender novas ferramentas e metodologias para entregar produtos de alta qualidade."
+        "title": "Sobre mim",
+        "p1": "Sou Engenheiro de Software Fullstack com foco em construir aplicações de alto desempenho, escaláveis e com arquitetura limpa. Trabalho com o desenvolvimento completo de sistemas corporativos e APIs robustas utilizando ecossistemas como .NET Core, Django e React.",
+        "p2": "Minha abordagem prioriza as melhores práticas de mercado, como SOLID, testes automatizados e containerização com Docker. Meu objetivo é sempre garantir entregas ágeis, código sustentável e soluções que realmente resolvam problemas complexos de negócios."
     },
     "skills": {
         "title": "Habilidades",
         "categories": [
-        {
-            "name": "Linguagens",
-            "items": ["C#", "Python", "TypeScript", "JavaScript"]
-        },
-        {
-            "name": "Front-end",
-            "items": ["React", "Tailwind CSS", "HTML5", "CSS3"]
-        },
-        {
-            "name": "Back-end",
-            "items": [".NET Core", "Django", "Node.js", "RESTful APIs"]
-        },
-        {
-            "name": "Banco de Dados & ORM",
-            "items": ["SQL Server", "PostgreSQL", "Entity Framework"]
-        },
-        {
-            "name": "Arquitetura & Boas Práticas",
-            "items": ["SOLID", "Clean Architecture", "Scrum", "Kanban", "CI/CD"]
-        },
-        {
-            "name": "Ferramentas & Infra",
-            "items": ["Docker", "Git", "GitHub", "Azure"]
-        }
+            {
+                "name": "Linguagens",
+                "items": [
+                    "C#",
+                    "Python",
+                    "TypeScript",
+                    "JavaScript"
+                ]
+            },
+            {
+                "name": "Front-end",
+                "items": [
+                    "React",
+                    "Tailwind CSS",
+                    "HTML5",
+                    "CSS3"
+                ]
+            },
+            {
+                "name": "Back-end",
+                "items": [
+                    ".NET Core",
+                    "Django",
+                    "Node.js",
+                    "RESTful APIs"
+                ]
+            },
+            {
+                "name": "Banco de Dados & ORM",
+                "items": [
+                    "SQL Server",
+                    "PostgreSQL",
+                    "Entity Framework"
+                ]
+            },
+            {
+                "name": "Arquitetura & Boas Práticas",
+                "items": [
+                    "SOLID",
+                    "Clean Architecture",
+                    "Scrum",
+                    "Kanban",
+                    "CI/CD"
+                ]
+            },
+            {
+                "name": "Ferramentas & Infra",
+                "items": [
+                    "Docker",
+                    "Git",
+                    "GitHub",
+                    "Azure"
+                ]
+            }
         ]
     },
     "experience": {

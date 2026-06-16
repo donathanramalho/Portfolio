@@ -16,36 +16,67 @@
     },
     "about": {
         "title": "About",
-        "content": "I am a Full-Stack Software Developer with experience in creating innovative and efficient solutions. Passionate about technology, I constantly seek to learn new tools and methodologies to deliver high-quality products."
+        "p1": "I am a Full-Stack Software Engineer focused on building high-performance, scalable applications with clean architecture. I work with the complete development of corporate systems and robust APIs using ecosystems such as .NET Core, Django, and React.",
+        "p2": "My approach prioritizes industry best practices, such as SOLID, automated testing, and Docker containerization. My goal is always to ensure agile deliveries, sustainable code, and solutions that truly solve complex business problems."
     },
     "skills": {
         "title": "Skills",
         "categories": [
             {
                 "name": "Languages",
-                "items": ["C#", "Python", "TypeScript", "JavaScript"]
+                "items": [
+                    "C#",
+                    "Python",
+                    "TypeScript",
+                    "JavaScript"
+                ]
             },
             {
                 "name": "Front-end",
-                "items": ["React", "Tailwind CSS", "HTML5", "CSS3"]
+                "items": [
+                    "React",
+                    "Tailwind CSS",
+                    "HTML5",
+                    "CSS3"
+                ]
             },
             {
                 "name": "Back-end",
-                "items": [".NET Core", "Django", "Node.js", "RESTful APIs"]
+                "items": [
+                    ".NET Core",
+                    "Django",
+                    "Node.js",
+                    "RESTful APIs"
+                ]
             },
             {
                 "name": "Database & ORM",
-                "items": ["SQL Server", "PostgreSQL", "Entity Framework"]
+                "items": [
+                    "SQL Server",
+                    "PostgreSQL",
+                    "Entity Framework"
+                ]
             },
             {
                 "name": "Architecture & Best Practices",
-                "items": ["SOLID", "Clean Architecture", "Scrum", "Kanban", "CI/CD"]
+                "items": [
+                    "SOLID",
+                    "Clean Architecture",
+                    "Scrum",
+                    "Kanban",
+                    "CI/CD"
+                ]
             },
             {
                 "name": "Tools & Infra",
-                "items": ["Docker", "Git", "GitHub", "Azure"]
+                "items": [
+                    "Docker",
+                    "Git",
+                    "GitHub",
+                    "Azure"
+                ]
             }
-            ]
+        ]
     },
     "experience": {
         "title": "Experience",
