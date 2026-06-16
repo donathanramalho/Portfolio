@@ -18,13 +18,13 @@ export function Header() {
     ];
 
     return (
-        <header className="fixed top-0 left-0 w-full bg-gray-950 text-white z-50 border-b border-gray-800">
+        <header className="fixed top-0 left-0 w-full bg-slate-950/80 backdrop-blur-md text-white z-50 border-b border-gray-800">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
                     {/* Left Side: Donathan */}
                     <div className="text-xl font-bold tracking-wider">
-                        Donathan<span className="text-blue-500">.</span>
+                        <a href="#home">Donathan<span className="text-blue-500">.</span></a>
                     </div>
 
                     {/* Right Side: Desktop */}
@@ -41,7 +41,7 @@ export function Header() {
 
                         {/* Languages (Hover) */}
                         <div className="relative group">
-                            <button className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors font-medium py-2">
+                            <button className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors font-medium py-2">
                                 <img
                                     src={i18n.language == 'pt' ? "https://flagcdn.com/w20/br.png" : "https://flagcdn.com/w20/us.png"}
                                     alt="Idioma atual"
@@ -109,7 +109,7 @@ export function Header() {
                                 key={link.key}
                                 href={link.href}
                                 onClick={() => setIsMobileMenuOpen(false)}
-                                className="block px-3 py-2 text-lg font-medium hover:text-blue-500 text-center w-full"
+                                className="block px-3 py-2 text-md font-medium hover:text-blue-500 text-center w-full"
                             >
                                 {t(`nav.${link.key}`)}
                             </a>

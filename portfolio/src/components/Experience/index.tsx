@@ -22,7 +22,7 @@ export function Experience() {
         <section id="experience" className="py-24 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
+                <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
                     {t('experience.title')}
                     <div className="h-1 w-20 bg-blue-500 rounded"></div>
                 </h2>
@@ -66,7 +66,6 @@ export function Experience() {
                     ))}
                 </div>
 
-                {/* mt-24 distancia a educação da linha do tempo */}
                 <div className="mt-24">
                     <h3 className="text-2xl font-bold text-slate-200 mb-8 flex items-center gap-3">
                         <FaGraduationCap className="text-blue-500" /> {t('education.title')}
@@ -80,13 +79,11 @@ export function Experience() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                                // Cards mais limpos, usando a paleta slate e padding reduzido (p-5)
                                 className="bg-slate-900/80 p-5 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors flex flex-col justify-center"
                             >
                                 <div className="text-blue-500 mb-2 text-xl">
                                     {edu.institution === "IBM" ? <FaShieldAlt /> : <FaGraduationCap />}
                                 </div>
-                                {/* Fontes ajustadas para proporção mais elegante */}
                                 <h4 className="text-base font-bold text-slate-100">{edu.course}</h4>
                                 <p className="text-blue-400 font-medium text-sm mt-1">{edu.institution}</p>
                                 <p className="text-slate-500 text-sm mt-2 font-mono">{edu.type}</p>

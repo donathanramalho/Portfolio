@@ -8,7 +8,7 @@ export function Contact() {
         <section id="contact" className="py-24">
             <div className="max-w-6xl mx-auto px-6">
 
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-16 gap-4">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-100 mb-16 gap-4">
                     {t('contact.title')}
                     <div className="h-1 w-20 bg-blue-500 mt-4 rounded"></div>
                 </h2>

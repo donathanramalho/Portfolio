@@ -15,7 +15,7 @@ export function About() {
                     transition={{ duration: 0.5 }}
                     className="mb-10"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-slate-100 flex flex-col items-start gap-2">
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-100 flex flex-col items-start gap-2">
                         {t('about.title')}
                         <div className="h-1 w-20 bg-blue-500 rounded"></div>
                     </h2>

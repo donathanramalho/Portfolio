@@ -39,7 +39,7 @@ export function Hero() {
                 
                 {/* Left Side */}
                 <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-4 order-2 md:order-1">
-                    <p className="text-gray-400 font-mono">
+                    <p className="text-blue-500 font-semibold">
                         {t('hero.greeting')}
                     </p>
                     
@@ -50,7 +50,7 @@ export function Hero() {
                         {t('hero.name')}
                     </h1>
                     
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-300 mt-2 mb-4 leading-snug">
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-300 mt-2 mb-4 leading-snug">
                         {t('hero.subtitle')}
                     </h2>
                     
@@ -60,12 +60,15 @@ export function Hero() {
                     
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                         <a 
-                            href="/Donathan_Goncalves_Software_PT.pdf"
-                            // href="/Donathan_Goncalves_Software_PT.pdf"
+                            href={t('hero.resumeLink')}
                             target="_blank"
                             className="flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors text-center shadow-md shadow-blue-500/20"
                         >
-                            {t('hero.ctaResume')} <FaFilePdf className="text-lg" />
+                            {t('hero.ctaResume')} 
+                            <span className="text-[10px] font-bold bg-white/20 px-1.5 py-0.5 rounded uppercase tracking-wider text-blue-50 opacity-80 group-hover:opacity-100 transition-opacity">
+                                {t('hero.langBadge')}
+                            </span>
+                            <FaFilePdf className="text-lg" />
                         </a>
                         <a 
                             href="#projects" 
