@@ -33,14 +33,14 @@ function ProjectCard({ project, index, textGithub, textDeploy }: { project: Proj
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             onMouseMove={handleMouseMove}
-            className="relative flex flex-col h-full w-full rounded-xl p-[1px] overflow-hidden group hover:-translate-y-1 transition-transform duration-300"
+            className="relative flex flex-col h-full w-full rounded-xl p-[2px] overflow-hidden group"
         >
 
             {/* Lights */}
             <div
                 className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
                 style={{
-                    background: `radial-gradient(800px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.8), transparent 40%)`
+                    background: `radial-gradient(700px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.8), transparent 40%)`
                 }}
             ></div>
 
