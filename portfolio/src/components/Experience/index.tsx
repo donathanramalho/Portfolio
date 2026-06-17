@@ -22,10 +22,17 @@ export function Experience() {
         <section id="experience" className="py-24 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 
-                <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
-                    {t('experience.title')}
-                    <div className="h-1 w-20 bg-blue-500 rounded"></div>
-                </h2>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
+                        {t('experience.title')}
+                        <div className="h-1 w-20 bg-blue-500 rounded"></div>
+                    </h2>
+                </motion.div>
 
                 <div className="relative pl-6 md:pl-8">
                     
@@ -77,9 +84,16 @@ export function Experience() {
                 </div>
 
                 <div className="mt-24">
-                    <h3 className="text-2xl font-bold text-slate-200 mb-8 flex items-center gap-3">
-                        <FaGraduationCap className="text-blue-500" /> {t('education.title')}
-                    </h3>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <h3 className="text-2xl font-bold text-slate-200 mb-8 flex items-center gap-3">
+                            <FaGraduationCap className="text-blue-500" /> {t('education.title')}
+                        </h3>
+                    </motion.div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {educations.map((edu, index) => (

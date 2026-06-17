@@ -65,7 +65,6 @@
                 "name": "Arquitetura & Engenharia",
                 "items": [
                     "SOLID",
-                    "Clean Architecture",
                     "Design Patterns",
                     "DDD",
                     "Engenharia de Requisitos"

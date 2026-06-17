@@ -13,10 +13,17 @@ export function Skills() {
         <section id="skills" className="pb-24 pt-10 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 
-                <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
-                    {t('skills.title')}
-                    <div className="h-1 w-20 bg-blue-500 rounded"></div>
-                </h2>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-16 flex flex-col items-start gap-2">
+                        {t('skills.title')}
+                        <div className="h-1 w-20 bg-blue-500 rounded"></div>
+                    </h2>
+                </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     

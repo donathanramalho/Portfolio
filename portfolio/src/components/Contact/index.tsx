@@ -1,27 +1,48 @@
 import { useTranslation } from 'react-i18next';
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 export function Contact() {
     const { t } = useTranslation();
     
     return (
-        <section id="contact" className="py-24">
+        <section id="contact" className="py-24 overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
 
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-100 mb-16 gap-4">
-                    {t('contact.title')}
-                    <div className="h-1 w-20 bg-blue-500 mt-4 rounded"></div>
-                </h2>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-100 mb-16 gap-4">
+                        {t('contact.title')}
+                        <div className="h-1 w-20 bg-blue-500 mt-4 rounded"></div>
+                    </h2>
+                </motion.div>
 
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-200 mb-6 text-center">
-                    {t('contact.subtitle')}
-                </h3>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-200 mb-6 text-center">
+                        {t('contact.subtitle')}
+                    </h3>
 
-                <p className="text-gray-400 text-base leading-relaxed mb-10 max-w-2xl mx-auto text-center">
-                    {t('contact.description')}
-                </p>
+                    <p className="text-gray-400 text-base leading-relaxed mb-10 max-w-2xl mx-auto text-center">
+                        {t('contact.description')}
+                    </p>
+                </motion.div>
 
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.5, delay: 0.4 }}
+                    className="flex flex-col sm:flex-row justify-center items-center gap-4"
+                >
                     
                     {/* E-mail */}
                     <a 
@@ -54,7 +75,7 @@ export function Contact() {
                         {t('contact.githubBtn')}
                     </a>
 
-                </div>
+                </motion.div>
             </div>
         </section>
     );
