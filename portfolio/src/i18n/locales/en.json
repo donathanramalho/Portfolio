@@ -18,8 +18,9 @@
     },
     "about": {
         "title": "About",
-        "p1": "I am a Full-Stack Software Engineer focused on building high-performance, scalable applications with clean architecture. I work with the complete development of corporate systems and robust APIs using ecosystems such as .NET Core, Django, and React.",
-        "p2": "My approach prioritizes industry best practices, such as SOLID, automated testing, and Docker containerization. My goal is always to ensure agile deliveries, sustainable code, and solutions that truly solve complex business problems."
+        "p1": "I hold a Bachelor's degree in Software Engineering (2024) and have over 4 years of experience in the Robert Bosch ecosystem, where I progressed from Apprentice to Technical Expert. My journey is marked by the development of robust solutions and a passion for transforming complex logic into efficient systems.",
+        "p2": "Currently, as a Technical Instructor at SENAI, I focus on developing full-stack projects and implementing DevOps routines (Azure DevOps). I am transitioning to the market as a Junior Software Engineer, seeking to apply my expertise in JavaScript (Node/React), Python (Django), and C# to solve real-world engineering challenges.",
+        "p3": "Complementing my technical foundation, I possess Advanced English proficiency, consolidated through an exchange program at the Centre of English Studies in Ireland. This international experience enables me to consume original documentation firsthand, collaborate with global teams, and adapt quickly to multicultural environments."
     },
     "skills": {
         "title": "Skills",
@@ -34,16 +35,7 @@
                 ]
             },
             {
-                "name": "Front-end",
-                "items": [
-                    "React",
-                    "Tailwind CSS",
-                    "HTML5",
-                    "CSS3"
-                ]
-            },
-            {
-                "name": "Back-end",
+                "name": "Back-end & APIs",
                 "items": [
                     ".NET Core",
                     "Django",
@@ -52,30 +44,41 @@
                 ]
             },
             {
+                "name": "Front-end",
+                "items": [
+                    "React",
+                    "HTML5 / CSS3",
+                    "Tailwind CSS",
+                    "Sass"
+                ]
+            },
+            {
                 "name": "Database & ORM",
                 "items": [
                     "SQL Server",
                     "PostgreSQL",
+                    "MongoDB",
                     "Entity Framework"
                 ]
             },
             {
-                "name": "Architecture & Best Practices",
+                "name": "Architecture & Engineering",
                 "items": [
                     "SOLID",
                     "Clean Architecture",
-                    "Scrum",
-                    "Kanban",
-                    "CI/CD"
+                    "Design Patterns",
+                    "DDD",
+                    "Requirements Engineering"
                 ]
             },
             {
-                "name": "Tools & Infra",
+                "name": "DevOps & Tools",
                 "items": [
+                    "Git / GitHub",
                     "Docker",
-                    "Git",
-                    "GitHub",
-                    "Azure"
+                    "Linux",
+                    "CI / CD",
+                    "Scrum / Kanban"
                 ]
             }
         ]
@@ -87,25 +90,45 @@
                 "role": "Technical Instructor of TI",
                 "company": "Senai",
                 "period": "Mar 2026 - Current",
-                "description": "Focus on educational full-stack projects and automation of internal processes (ETL)."
+                "description": [
+                    "In this position, I operate at the intersection of teaching and practical software development.",
+                    "Development and architecture of Full Stack educational projects, using agile methodologies (Scrum/Kanban) to simulate real-world software environments.",
+                    "Creation of internal automation tools in Python for data processing (ETL), optimizing the transition of complex data between spreadsheets and structured formats.",
+                    "Technologies: React, Node.js, Python, MongoDB, Azure DevOps, and Git."
+                ]
             },
             {
                 "role": "Internship of Immersion and International Experience",
                 "company": "CES - Ireland",
                 "period": "Jul 2025 - Dez 2025",
-                "description": "Advanced English language improvement and multicultural experience, developing adaptability and communication."
+                "description": [
+                    "A period dedicated to improving English proficiency and adapting to the European job market.",
+                    "Studies at the Centre of English Studies, combined with hands-on experience in customer service within fast-paced restaurant environments.",
+                    "Development of intercultural communication, problem-solving skills, and leadership in dynamic, high-pressure settings."
+                ]
             },
             {
                 "role": "Tech Lead & Technical Instructor of TI",
                 "company": "Robert Bosch",
                 "period": "Nov 2022 - Jun 2025",
-                "description": "Technical leadership and development of competence management system. Implementation of agile methodologies (Scrum/Kanban)."
+                "description": [
+                    "Led the technical development of internal solutions, focusing on data management and performance.",
+                    "Competency Management System: Acted as the lead developer on a Full Stack platform (.NET/React), from SQL Server database modeling to the final user interface.",
+                    "Application of design patterns (MVC, DDD) and REST API integration to ensure system modularity.",
+                    "Responsible for teaching and conducting technical code reviews, ensuring the quality and security of deliverables.",
+                    "Technologies: C#, .NET Core, React, SQL Server, REST APIs, Git, and Linux."
+                ]
             },
             {
                 "role": "Apprentice",
                 "company": "Robert Bosch",
                 "period": "Feb 2021 - Nov 2022",
-                "description": "Development of automation scripts and creation of management dashboards."
+                "description": [
+                    "Early career focus on automation and industrial data analysis.",
+                    "Development of Python scripts and C++/Arduino logic for system integration and automation of routine tasks.",
+                    "Creation of dynamic Power BI dashboards to support data-driven decision-making.",
+                    "Development of web interfaces (HTML/CSS) for internal tools."
+                ]
             }
         ]
     },
@@ -130,43 +153,32 @@
         "deployBtn": "Access",
         "items": [
             {
-                "title": "Copel Innovation Solution",
+                "title": "Training Solution with AI",
                 "badge": "🏆 2nd Place - Hackathon",
-                "description": "MVP focused on solving energy bottlenecks. I was responsible for the front-end architecture and system integration during the high-pressure competition.",
+                "description": "Solution conceived in 36h to optimize customer service processes through AI. Phase of discovery (5W2H, personas), requirements engineering and prototyping.",
                 "image": "/hackathon-team.jpeg",
+                "tech": [
+                    "Figma",
+                    "Miro",
+                    "Product Design",
+                    "Requirements Engineering"
+                ],
+                "github": "",
+                "deploy": "https://www.linkedin.com/posts/donathan-goncalves-89b06a181_hackathon-inovaaexaeto-inteligaeanciaartificial-ugcPost-7257555386101075968-nTu-/?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+                "title": "Personal Portfolio",
+                "badge": "",
+                "description": "Personal portfolio focused on performance, internationalization (i18n) and minimalist design. The code reflects my concern with clean architecture, componentization and repository organization.",
+                "image": "/portfolio-preview.jpg",
                 "tech": [
                     "React",
                     "TypeScript",
-                    "Tailwind"
+                    "Tailwind CSS",
+                    "Vite",
+                    "Framer Motion"
                 ],
-                "github": "https://github.com/seu-user/repo-copel",
-                "deploy": "https://link-do-deploy.com"
-            },
-            {
-                "title": "Competence Management System",
-                "badge": "",
-                "description": "Complete platform for mapping employee skills, including management dashboards and access control.",
-                "image": "/image.png",
-                "tech": [
-                    "C#",
-                    ".NET Core",
-                    "React",
-                    "SQL Server"
-                ],
-                "github": "https://github.com/seu-user/repo-gestao",
-                "deploy": ""
-            },
-            {
-                "title": "ETL Data Pipeline",
-                "badge": "",
-                "description": "Automation scripts for extracting, transforming, and loading raw data for subsequent strategic visualization.",
-                "image": "/image.png",
-                "tech": [
-                    "Python",
-                    "Pandas",
-                    "Power BI"
-                ],
-                "github": "https://github.com/seu-user/repo-etl",
+                "github": "https://github.com/donathanramalho/Portfolio",
                 "deploy": ""
             }
         ]

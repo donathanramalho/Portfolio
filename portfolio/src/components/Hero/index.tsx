@@ -62,7 +62,7 @@ export function Hero() {
                         <a 
                             href={t('hero.resumeLink')}
                             target="_blank"
-                            className="flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors text-center shadow-md shadow-blue-500/20"
+                            className="flex items-center justify-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors text-center shadow-md shadow-blue-500/20"
                         >
                             {t('hero.ctaResume')} 
                             <span className="text-[10px] font-bold bg-white/20 px-1.5 py-0.5 rounded uppercase tracking-wider text-blue-50 opacity-80 group-hover:opacity-100 transition-opacity">
@@ -72,7 +72,7 @@ export function Hero() {
                         </a>
                         <a 
                             href="#projects" 
-                            className="flex items-center justify-center gap-3 px-6 py-3 border-2 border-blue-500 text-blue-500 hover:bg-blue-500/10 font-medium rounded transition-colors text-center"
+                            className="flex items-center justify-center gap-3 px-6 py-3 border-2 border-blue-500 text-blue-500 hover:bg-blue-500/10 font-medium rounded-lg transition-colors text-center"
                         >
                             {t('hero.ctaProjects')} <FaExternalLinkAlt />
                         </a>
@@ -85,7 +85,7 @@ export function Hero() {
                         <img 
                             src="/Donathan.jpg"
                             alt="Donathan R. Gonçalves"
-                            className="w-48 md:w-full md:max-w-sm aspect-square object-cover rounded-full shadow-2xl z-10 relative border-4 border-gray-800" 
+                            className="w-48 md:w-full md:max-w-sm aspect-square object-cover rounded-full shadow-2xl z-10 relative border-4 border-slate-800/80 hover:border-blue-500 hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all duration-500" 
                         />
                     </div>
                 </div>

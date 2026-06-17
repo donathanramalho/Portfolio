@@ -44,7 +44,7 @@ function ProjectCard({ project, index, textGithub, textDeploy }: { project: Proj
                 }}
             ></div>
 
-            <div className="relative z-10 flex flex-col flex-grow w-full bg-slate-900 rounded-[10px] overflow-hidden">
+            <div className="relative z-10 flex flex-col flex-grow w-full bg-slate-900 rounded-[10px] overflow-hidden border border-blue-500/20">
 
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden bg-slate-950 border-b border-slate-800/50 group/image">
@@ -60,17 +60,19 @@ function ProjectCard({ project, index, textGithub, textDeploy }: { project: Proj
 
                     {/* Buttons (Images) */}
                     <div className="hidden md:flex absolute inset-0 z-20 items-center justify-center gap-8 opacity-0 translate-y-3 group-hover/image:opacity-100 group-hover/image:translate-y-0 transition-all duration-500 ease-out">
-                        <a
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex flex-col items-center text-gray-300 hover:text-white transition-colors"
-                        >
-                            <div className="bg-slate-900/80 p-3 rounded-full mb-2 border border-slate-600 hover:border-slate-400 hover:scale-105 transition-all">
-                                <FaGithub className="text-xl" />
-                            </div>
-                            <span className="text-xs font-medium tracking-wide">{textGithub}</span>
-                        </a>
+                        {project.github && (
+                            <a
+                                href={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex flex-col items-center text-gray-300 hover:text-white transition-colors"
+                            >
+                                <div className="bg-slate-900/80 p-3 rounded-full mb-2 border border-slate-600 hover:border-slate-400 hover:scale-105 transition-all">
+                                    <FaGithub className="text-xl" />
+                                </div>
+                                <span className="text-xs font-medium tracking-wide">{textGithub}</span>
+                            </a>
+                        )}
 
                         {project.deploy && (
                             <a
@@ -90,7 +92,7 @@ function ProjectCard({ project, index, textGithub, textDeploy }: { project: Proj
 
                     {/* Badge */}
                     {project.badge && (
-                        <div className="absolute top-3 right-3 z-30 bg-orange-600/90 backdrop-blur-sm text-white text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full shadow-lg">
+                        <div className="absolute top-2 right-3 z-30 bg-slate-950/80 backdrop-blur-md border border-orange-500/50 text-orange-400 text-[10px] uppercase tracking-wider font-bold px-3 py-1.5 rounded-full shadow-xl">
                             {project.badge}
                         </div>
                     )}
@@ -116,14 +118,16 @@ function ProjectCard({ project, index, textGithub, textDeploy }: { project: Proj
 
                     {/* Button in Mobile */}
                     <div className="flex md:hidden gap-3 mt-auto pt-4 border-t border-slate-800/50">
-                        <a
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex-1 flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-gray-200 py-2 rounded transition-colors text-xs font-medium border border-slate-700"
-                        >
-                            <FaGithub className="text-sm" /> {textGithub}
-                        </a>
+                        {project.github && (
+                            <a
+                                href={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-1 flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-gray-200 py-2 rounded transition-colors text-xs font-medium border border-slate-700"
+                            >
+                                <FaGithub className="text-sm" /> {textGithub}
+                            </a>
+                        )}
 
                         {project.deploy && (
                             <a

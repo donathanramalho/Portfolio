@@ -18,8 +18,9 @@
     },
     "about": {
         "title": "Sobre mim",
-        "p1": "Sou Engenheiro de Software Fullstack com foco em construir aplicações de alto desempenho, escaláveis e com arquitetura limpa. Trabalho com o desenvolvimento completo de sistemas corporativos e APIs robustas utilizando ecossistemas como .NET Core, Django e React.",
-        "p2": "Minha abordagem prioriza as melhores práticas de mercado, como SOLID, testes automatizados e containerização com Docker. Meu objetivo é sempre garantir entregas ágeis, código sustentável e soluções que realmente resolvam problemas complexos de negócios."
+        "p1": "Sou Bacharel em Engenharia de Software (2024) com mais de 4 anos de experiência no ecossistema da Robert Bosch, onde evoluí de Aprendiz a Líder Técnico. Minha jornada é marcada pelo desenvolvimento de soluções robustas e pela paixão por transformar lógica complexa em sistemas eficientes.",
+        "p2": "Atualmente, como Instrutor Técnico no SENAI, foco no desenvolvimento de projetos full stack e na implementação de rotinas de DevOps (Azure DevOps). Estou em transição para o mercado como Engenheiro de Software Júnior, buscando aplicar meu domínio em JavaScript (Node/React), Python (Django), e C# para resolver desafios reais de engenharia.",
+        "p3": "Complementando minha base técnica, possuo Inglês Avançado, consolidado através de um intercâmbio no Centre of English Studies, na Irlanda. Essa vivência internacional me permite consumir documentações originais na fonte, colaborar com times globais e me adaptar rapidamente a ambientes multiculturais."
     },
     "skills": {
         "title": "Habilidades",
@@ -34,16 +35,7 @@
                 ]
             },
             {
-                "name": "Front-end",
-                "items": [
-                    "React",
-                    "Tailwind CSS",
-                    "HTML5",
-                    "CSS3"
-                ]
-            },
-            {
-                "name": "Back-end",
+                "name": "Back-end & APIs",
                 "items": [
                     ".NET Core",
                     "Django",
@@ -52,30 +44,41 @@
                 ]
             },
             {
+                "name": "Front-end",
+                "items": [
+                    "React",
+                    "HTML5 / CSS3",
+                    "Tailwind CSS",
+                    "Sass"
+                ]
+            },
+            {
                 "name": "Banco de Dados & ORM",
                 "items": [
                     "SQL Server",
                     "PostgreSQL",
+                    "MongoDB",
                     "Entity Framework"
                 ]
             },
             {
-                "name": "Arquitetura & Boas Práticas",
+                "name": "Arquitetura & Engenharia",
                 "items": [
                     "SOLID",
                     "Clean Architecture",
-                    "Scrum",
-                    "Kanban",
-                    "CI/CD"
+                    "Design Patterns",
+                    "DDD",
+                    "Engenharia de Requisitos"
                 ]
             },
             {
-                "name": "Ferramentas & Infra",
+                "name": "DevOps & Ferramentas",
                 "items": [
+                    "Git / GitHub",
                     "Docker",
-                    "Git",
-                    "GitHub",
-                    "Azure"
+                    "Linux",
+                    "CI / CD",
+                    "Scrum / Kanban"
                 ]
             }
         ]
@@ -87,25 +90,45 @@
                 "role": "Instrutor Técnico de TI",
                 "company": "Senai",
                 "period": "Mar 2026 - Presente",
-                "description": "Foco em projetos educacionais full-stack e automação de processos internos (ETL)."
+                "description": [
+                    "Nesta posição, atuo na intersecção entre o ensino e o desenvolvimento prático de software.",
+                    "Desenvolvimento e arquitetura de projetos educacionais Full Stack, utilizando metodologias ágeis (Scrum/Kanban) para simular ambientes reais de desenvolvimento de software.",
+                    "Criação de ferramentas internas de automação em Python para processamento de dados (ETL), otimizando a transição de dados complexos entre planilhas e formatos estruturados.",
+                    "Tecnologias: React, Node.js, Python, MongoDB, Azure DevOps e Git."
+                ]
             },
             {
                 "role": "Intercâmbio de Imersão e Vivência Internacional",
                 "company": "CES - Irlanda",
                 "period": "Jul 2025 - Dez 2025",
-                "description": "Aprimoramento avançado do idioma inglês e vivência multicultural, desenvolvendo adaptabilidade e comunicação."
+                "description": [
+                    "Período dedicado ao aprimoramento do inglês e à adaptação ao mercado europeu.",
+                    "Estudos realizados na Centre of English Studies, conciliados com experiências em atendimento ao cliente em ambientes de alta demanda, como restaurantes.",
+                    "Desenvolvimento de comunicação intercultural, resolução de problemas e liderança em contextos dinâmicos."
+                ]
             },
             {
                 "role": "Tech Lead & Instrutor de TI",
                 "company": "Robert Bosch",
                 "period": "Nov 2022 - Jun 2025",
-                "description": "Liderança técnica e desenvolvimento de sistema de gestão de competências. Implementação de metodologias ágeis (Scrum/Kanban)."
+                "description": [
+                    "Liderei o desenvolvimento técnico de soluções internas, com foco em gestão de dados e performance.",
+                    "Atuei como desenvolvedor principal em uma plataforma Full Stack (.NET/React), em um sistema de gestão de competências, desde a modelagem do banco SQL Server até a interface final.",
+                    "Aplicação de padrões de projeto (MVC, DDD) e integração de APIs REST para garantir a modularidade do sistema.",
+                    "Responsável por ensino e revisões técnicas de código, assegurando a qualidade e a segurança das entregas.",
+                    "Tecnologias: C#, .NET Core, React, SQL Server, REST APIs e Git, Linux."
+                ]
             },
             {
                 "role": "Aprendiz",
                 "company": "Robert Bosch",
                 "period": "Fev 2021 - Nov 2022",
-                "description": "Desenvolvimento de scripts de automação e criação de dashboards gerenciais."
+                "description": [
+                    "Início da carreira focado em automação e análise de dados industriais.",
+                    "Desenvolvimento de scripts em Python e lógica em C++/Arduino para integração de sistemas e automação de tarefas rotineiras.",
+                    "Criação de dashboards dinâmicos no Power BI para suporte à tomada de decisão baseada em dados.",
+                    "Desenvolvimento de interfaces web (HTML/CSS) para ferramentas internas."
+                ]
             }
         ]
     },
@@ -130,43 +153,32 @@
         "deployBtn": "Acessar",
         "items": [
             {
-                "title": "Solução Inovação Copel",
+                "title": "Solução de Treinamento com IA",
                 "badge": "🏆 2º Lugar - Hackathon",
-                "description": "MVP focado em resolver gargalos energéticos. Fui responsável pela arquitetura front-end e integração do sistema durante a competição sob alta pressão.",
+                "description": "Solução idealizada em 36h para otimizar o processo de atendimento ao cliente através da IA. Fase de discovery (5W2H, persona), engenharia de requisitos e prototipagem.",
                 "image": "/hackathon-team.jpeg",
+                "tech": [
+                    "Figma",
+                    "Miro",
+                    "Product Design",
+                    "Engenharia de Requisitos"
+                ],
+                "github": "",
+                "deploy": "https://www.linkedin.com/posts/donathan-goncalves-89b06a181_hackathon-inovaaexaeto-inteligaeanciaartificial-ugcPost-7257555386101075968-nTu-/?utm_source=share&utm_medium=member_desktop"
+            },
+            {
+                "title": "Portfólio Pessoal",
+                "badge": "",
+                "description": "Portfólio profissional focado em performance, internacionalização (i18n) e design minimalista. O código reflete minha preocupação com arquitetura limpa, componentização e organização de repositório.",
+                "image": "/portfolio-preview.jpg",
                 "tech": [
                     "React",
                     "TypeScript",
-                    "Tailwind"
+                    "Tailwind CSS",
+                    "Vite",
+                    "Framer Motion"
                 ],
-                "github": "https://github.com/seu-user/repo-copel",
-                "deploy": "https://link-do-deploy.com"
-            },
-            {
-                "title": "Sistema de Gestão de Competências",
-                "badge": "",
-                "description": "Plataforma completa para mapeamento de skills de colaboradores, incluindo dashboards gerenciais e controle de acessos.",
-                "image": "/image.png",
-                "tech": [
-                    "C#",
-                    ".NET Core",
-                    "React",
-                    "SQL Server"
-                ],
-                "github": "https://github.com/seu-user/repo-gestao",
-                "deploy": ""
-            },
-            {
-                "title": "Pipeline de Dados ETL",
-                "badge": "",
-                "description": "Scripts de automação para extração, transformação e carga de dados brutos para posterior visualização estratégica.",
-                "image": "/image.png",
-                "tech": [
-                    "Python",
-                    "Pandas",
-                    "Power BI"
-                ],
-                "github": "https://github.com/seu-user/repo-etl",
+                "github": "https://github.com/donathanramalho/Portfolio",
                 "deploy": ""
             }
         ]

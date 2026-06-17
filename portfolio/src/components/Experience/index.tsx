@@ -9,7 +9,7 @@ export function Experience() {
         role: string;
         company: string;
         period: string;
-        description: string;
+        description: string[];
     }>;
 
     const educations = t('education.items', { returnObjects: true }) as Array<{
@@ -54,14 +54,24 @@ export function Experience() {
                                     {job.role}
                                 </h3>
                                 
-                                <span className="text-sm md:text-base font-medium text-slate-500 mt-1 mb-3">
+                                <span className="text-sm md:text-base font-medium text-slate-300 mt-1 mb-3">
                                     {job.company}
                                 </span>
                             </div>
 
-                            <p className="text-slate-400 leading-relaxed text-sm md:text-base">
-                                {job.description}
-                            </p>
+                            <div className="text-slate-400 leading-relaxed text-sm md:text-base">
+                                {job.description.length > 0 && (
+                                    <p className="mb-3" style={{whiteSpace: 'pre-line'}}>{job.description[0]}</p>
+                                )}
+
+                                {job.description.length > 1 && (
+                                    <ul className="list-disc pl-5 space-y-2 marker:text-blue-500">
+                                        {job.description.slice(1).map((item, i) => (
+                                            <li key={i}>{item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
                         </motion.div>
                     ))}
                 </div>
