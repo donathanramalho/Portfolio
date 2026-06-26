@@ -109,7 +109,7 @@ export function Hero() {
                     className="flex-1 flex items-center justify-center md:justify-end w-full h-full order-1 md:order-2"
                 >
                     <motion.div
-                        animate={{ y: [0, -8, 0] }}
+                        animate={{ y: [0, -10, 0] }}
                         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                         className="relative p-2 rounded-full border-2 border-slate-500"
                     >

@@ -80,7 +80,7 @@ export function Header() {
                             title="Trocar idioma"
                         >
                             <img
-                                src={i18n.language === 'pt' ? "https://flagcdn.com/w20/us.png" : "https://flagcdn.com/w20/br.png"}
+                                src={i18n.language === 'pt' ? "https://flagcdn.com/w20/br.png" : "https://flagcdn.com/w20/us.png"}
                                 alt="Trocar idioma"
                                 className="w-6 h-4 object-cover rounded shadow-sm"
                             />
